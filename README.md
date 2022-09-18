@@ -21,6 +21,7 @@ Using the model medical practitioners will save time in identify if a lesion is 
 - We used 50 epochs to train data with batch size 32. However the optimum results were reached in about 15 epochs and we could have used an early stopping.
 - Loss function used is SparseCategoricalCrossentropy, Optimizer is adam and accuracy was used as metric
 
+![index](https://user-images.githubusercontent.com/102841813/190917278-228ea95d-ef92-4122-bb2a-98b7950d0eaf.png)
 
 ## Technologies Used
 - Python - version 3.0
