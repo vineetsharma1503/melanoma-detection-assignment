@@ -20,12 +20,16 @@ Using the model medical practitioners will save time in identify if a lesion is 
 - The model is having a accuracy of 95% on train data and 82% on validation data set.
 - We used 50 epochs to train data with batch size 32. However the optimum results were reached in about 15 epochs and we could have used an early stopping.
 - Loss function used is SparseCategoricalCrossentropy, Optimizer is adam and accuracy was used as metric
+- seborrheic keratosis class has the least number of samples
+- melanoma, pigmented benign keratosis and basal cell carcinoma classes dominate the data in terms proportionate number of samples
 
 ![index](https://user-images.githubusercontent.com/102841813/190917278-228ea95d-ef92-4122-bb2a-98b7950d0eaf.png)
 
 ## Technologies Used
 - Python - version 3.0
 - Jupyter Lab - version 3.2.1
+- Keras API and Tenserflow
+- Matplotlib for visualization
 
 
 
